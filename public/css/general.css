@@ -1,0 +1,55 @@
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+
+    --tipografia-roboto: 'Roboto', sans-serif;
+    --tipografia-general: 12px;
+    --tipografia-titulos: 24px;
+    --tipografia-precio: 18px;
+    --tipografia-descuentos: 16px;
+    --tipografia-descripciones: 16px;
+
+
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background: var(--colorAmarillo);
+}
+
+
+
+
+
+/* body {
+    font-family: var(--tipografia-roboto);
+    font-weight: 400px;
+
+}
+
+.text-body {
+    font-size: var(--text-body);
+}
+
+.text-heading {
+    font-size: var(--text-heading);
+}
+
+.text-price {
+    font-size: var(--text-price);
+}
+
+.text-discount {
+    font-size: var(--text-discount);
+}
+
+.text-description {
+    font-size: var(--text-description);
+} */
