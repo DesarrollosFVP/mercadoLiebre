@@ -20,10 +20,12 @@
         </div>
 
         <div class="home__header__div--search-bar">
-            Lugar para poner la barra de búsqueda
+            <input type="text" placeholder="Buscar productos, marcas">
+            <button> <i class="fas fa-search"></i> </button>
         </div>
 
         <div class="home__header__div--cuotas">
+            <i class="fas fa-hand-holding-usd"></i>
             Comprá en cuotas y sin tarjeta de crédito
         </div>
 
@@ -37,28 +39,38 @@
 
 
             <ul class="home__header__nav__ul--login">
-                <li><a href="">Creá tu cuenta</a></li>
-                <li><a href="">Ingresá</a></li>
-                <li><a href="">Mis compras</a></li>
+                <li><a href="">Creá tu cuenta</a>
+                    <i class="far fa-id-card"></i>
+                 </li>
+                <li><a href="">Ingresá</a>
+                    <i class="fas fa-sign-in-alt"></i>
+                </li>
+                <li><a href="">Mis compras</a>
+                    <i class="fa fa-shopping-basket"></i>
+                </li>
             </ul>
 
         </nav>
+
+        <div class="home__header__div--menu-bar">
+            <i class="fas fa-bars"></i>
+        </div>
 
 
     </header>
 
     <main class="home__main">
 
-        <img src="/images/img-home-banner.jpg" alt="Banner" width="100%">
+        <img class="home__main__img--banner" src="/images/img-home-banner.jpg" alt="Banner">
 
         <section class="home__main__section--recomendaciones">
             <h2>Basado en tu última visita</h2>
 
-            <article>
-                <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera" width="100%">
-                <ul>
-                    <li>$6.770</li>
-                    <li>40% OFF</li>
+            <article class="home__main__section--recomendaciones__article">
+                <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera">
+                <ul class="home__main__section--recomendaciones__article__ul">
+                    <li class="home__main__section--recomendaciones__article__ul__li--precio">$6.770</li>
+                    <li class="home__main__section--recomendaciones__article__ul__li--descuento">40% OFF</li>
                     <li>
                         <h3>Cafetera Moulinex</h3>
                     </li>
@@ -66,11 +78,11 @@
 
             </article>
 
-            <article>
-                <img src="/images/img-macbook-pro-2019.jpg" alt="macbook" width="100%">
-                <ul>
-                    <li>$230.000</li>
-                    <li>20% OFF</li>
+            <article class="home__main__section--recomendaciones__article">
+                <img src="/images/img-macbook-pro-2019.jpg" alt="macbook">
+                <ul class="home__main__section--recomendaciones__article__ul">
+                    <li class="home__main__section--recomendaciones__article__ul__li--precio">$230.000</li>
+                    <li class="home__main__section--recomendaciones__article__ul__li--descuento">20% OFF</li>
                     <li>
                         <h3>MacBook Pro 2019</h3>
                     </li>
@@ -79,10 +91,10 @@
 
 
             <article>
-                <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10" width="100%">
+                <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
                 <ul>
-                    <li>$70.500</li>
-                    <li>10% OFF</li>
+                    <li class="home__main__section--recomendaciones__article__ul__li--precio">$70.500</li>
+                    <li class="home__main__section--recomendaciones__article__ul__li--descuento">10% OFF</li>
                     <li>
                         <h3>Samsung Galaxy S10</h3>
                     </li>
@@ -90,10 +102,10 @@
             </article>
 
             <article>
-                <img src="/images/img-tv-samsung-smart.jpg" alt='SmartTv Samsung 43"' width="100%">
+                <img src="/images/img-tv-samsung-smart.jpg" alt='SmartTv Samsung 43"'>
                 <ul>
-                    <li>$23.200</li>
-                    <li>5% OFF</li>
+                    <li class="home__main__section--recomendaciones__article__ul__li--precio">$23.200</li>
+                    <li class="home__main__section--recomendaciones__article__ul__li--descuento">5% OFF</li>
                     <li><h3> SmartTv Samsung 43" </h3></li>
                 </ul>
             </article>
@@ -105,10 +117,10 @@
             <h2>Ofertas</h2>
 
             <article>
-                <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera" width="100%">
+                <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera">
                 <ul>
-                    <li>$6.770</li>
-                    <li>40% OFF</li>
+                    <li class="home__main__section--ofertas__article__ul__li--precio">$6.770</li>
+                    <li class="home__main__section--ofertas__article__ul__li--descuento">40% OFF</li>
                     <li>
                         <h3>Cafetera Moulinex</h3>
                     </li>
@@ -117,10 +129,10 @@
             </article>
 
             <article>
-                <img src="/images/img-macbook-pro-2019.jpg" alt="macbook" width="100%">
+                <img src="/images/img-macbook-pro-2019.jpg" alt="macbook">
                 <ul>
-                    <li>$230.000</li>
-                    <li>20% OFF</li>
+                    <li class="home__main__section--ofertas__article__ul__li--precio">$230.000</li>
+                    <li class="home__main__section--ofertas__article__ul__li--descuento">20% OFF</li>
                     <li>
                         <h3>MacBook Pro 2019</h3>
                     </li>
@@ -129,10 +141,10 @@
 
 
             <article>
-                <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10" width="100%">
+                <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10">
                 <ul>
-                    <li>$70.500</li>
-                    <li>10% OFF</li>
+                    <li class="home__main__section--ofertas__article__ul__li--precio">$70.500</li>
+                    <li class="home__main__section--ofertas__article__ul__li--descuento">10% OFF</li>
                     <li>
                         <h3>Samsung Galaxy S10</h3>
                     </li>
@@ -140,10 +152,10 @@
             </article>
 
             <article>
-                <img src="/images/img-tv-samsung-smart.jpg" alt='SmartTv Samsung 43"' width="100%">
+                <img src="/images/img-tv-samsung-smart.jpg" alt='SmartTv Samsung 43"'>
             <ul>
-                <li>$23.200</li>
-                <li>5% OFF</li>
+                <li class="home__main__section--ofertas__article__ul__li--precio">$23.200</li>
+                <li class="home__main__section--ofertas__article__ul__li--descuento">5% OFF</li>
                 <li><h3> SmartTv Samsung 43" </h3></li>
                 </ul>
             </article>
@@ -159,18 +171,35 @@
 
 
         <section class="home__footer__section--pagos">
+            
+            <div>
+                <i class="fas fa-credit-card"></i>
+            </div>
+
             <h4> Pagá con tarjeta o en efectivo </h4>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro!</p>
         </section>
 
         <section class="home__footer__section--envio-gratis">
+            
+            <div>
+                <i class="fas fa-gift"></i>
+            </div>
+
+            
             <h4> Envío gratis desde $ 2.500 </h4>
             <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.</p>
         </section>
 
         <section class="home__footer__section--compra-protegida">
+
+            <div>
+                <i class="fas fa-user-shield"></i>
+            </div>
+
+
             <h4>Seguridad, de principio a fin</h4>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>

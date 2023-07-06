@@ -1,0 +1,29 @@
+/* MAIN */
+
+.home__main h2 {
+    font-size: var(--tipografia-titulos);
+}
+
+.home__main__img--banner {
+    width: 100%;
+}
+
+.home__main section article img {
+    width: 100%;
+}
+
+.home__main__section--recomendaciones__article__ul__li--precio, 
+.home__main__section--ofertas__article__ul__li--precio {
+    font-size: var(--tipografia-precio);
+}
+
+.home__main__section--recomendaciones__article__ul__li--descuento, 
+.home__main__section--ofertas__article__ul__li--descuento {
+    font-size: var(--tipografia-descuento);
+}
+
+
+.home__main section article ul li h3 {
+    font-size: var(--tipografia-descripcion);
+    
+}

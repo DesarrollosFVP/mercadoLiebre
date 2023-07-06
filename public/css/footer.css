@@ -1,0 +1,18 @@
+.home__footer {
+    text-align: center;
+    background: var(--colorGrisClaro);
+}
+
+
+.home__footer section div i {
+    color: var(--colorAzul);
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+
+.home__footer__section--copyright {
+    margin-top: 10px;
+    text-align: left;
+}
