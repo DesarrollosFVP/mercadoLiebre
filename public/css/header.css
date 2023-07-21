@@ -1,21 +1,64 @@
 .home__header {
     background: var(--colorAmarillo);
+    padding: 20px;
+        
+}
+
+.home__header__div--logo {
+    width: 50%;
+    margin: 0 0 8px;
+}
+
+.home__header__div--search-bar {
+    width: 50%;
+    margin: 0;
+}
+
+
+.home__header__div--search-bar button{
+    display: block;
+    margin-top: 0.5%;
+    margin-left: 0px;
+    margin-bottom: 4%;
     
 }
 
+
+.home__header__div--cuotas {
+    display: block;
+    text-align: center;
+}
+
+
+.home__header__nav {
+    margin-top: 5%;
+}
+
+.home__header__nav ul{
+    list-style: none;
+    margin-left: -20px;
+}
+
+.home__header__nav__ul--menu {
+    margin-bottom: 5%;
+}
+
+
 .home__header__div--menu-bar {
-    display: inline-block;
-    
+    display: block;
     background: var(--colorCeleste);
     color: var(--colorGrisClaro);
-    
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
+    max-width: 50px;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 8px;
+    text-align: center;
+    font-style: 20px;
+    margin: auto;
 }
 
 .home__header__div--menu-bar i {
     font-size: 30px;
-    padding: 12px;
+    padding: 10px;
 }
 

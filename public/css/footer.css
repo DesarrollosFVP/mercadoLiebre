@@ -1,18 +1,29 @@
 .home__footer {
     text-align: center;
-    background: var(--colorGrisClaro);
+    border: 1px solid var(--colorGrisClaro);
+    color: var(--colorGrisOscuro);
 }
 
 
 .home__footer section div i {
-    color: var(--colorAzul);
+    color: var(--colorCeleste);
     font-size: 2em;
+    margin-top: 10%;
     margin-bottom: 10px;
-    
+}
+
+.home__footer section h4 {
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+.home__footer section p {
+    margin: 0 10% 0;
+    text-align: center;
 }
 
 
 .home__footer__section--copyright {
-    margin-top: 10px;
+    margin: 10% 4% 2%;
     text-align: left;
 }
