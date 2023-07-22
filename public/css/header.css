@@ -1,7 +1,6 @@
 .home__header {
     background: var(--colorAmarillo);
-    padding: 20px 20px 0px;
-        
+    padding: 20px 20px 0px;            
 }
 
 .home__header__div--logo {
@@ -54,6 +53,7 @@
     text-align: center;
     font-style: 20px;
     margin-top: -110px;
+    margin-left: 42%;
 }
 
 .home__header__div--menu-bar i {
@@ -61,14 +61,12 @@
     padding: 10px;
 }
 
+
 .home__header_img--banner {
     display: block;
-    width: 117%;
-    margin-top: 5%;
-    margin-left: -10%;
+    width: 100%;
+    margin-top: 5%;    
 }
-
-
 
 /* TABLET */
 
