@@ -2,8 +2,7 @@
 
 .home__main {
     width: 90vw;
-    background-color: var(--colorGrisClaro);  
-    
+    background-color: var(--colorGrisClaro);
 }
 
 .home__main h2 {
