@@ -1,6 +1,6 @@
 .home__header {
     background: var(--colorAmarillo);
-    padding: 20px;
+    padding: 20px 20px 0px;
         
 }
 
@@ -32,6 +32,7 @@
 
 .home__header__nav {
     margin-top: 5%;
+    visibility: hidden;
 }
 
 .home__header__nav ul{
@@ -49,16 +50,51 @@
     background: var(--colorCeleste);
     color: var(--colorGrisClaro);
     max-width: 50px;
-    /* width: 50px;
-    height: 50px; */
     border-radius: 8px;
     text-align: center;
     font-style: 20px;
-    margin: auto;
+    margin-top: -110px;
 }
 
 .home__header__div--menu-bar i {
     font-size: 30px;
     padding: 10px;
+}
+
+.home__header_img--banner {
+    display: block;
+    width: 117%;
+    margin-top: 5%;
+    margin-left: -10%;
+}
+
+
+
+/* TABLET */
+
+@media (min-width:361px) {
+   
+.home__header__nav {
+    margin-top: 5%;
+    visibility:visible;
+    padding-left: 20px;
+}
+
+.home__header__div--menu-bar {
+    margin: -30px;
+    visibility: hidden;
+}
+
+    
+}
+
+
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+
+   
+    
 }
 

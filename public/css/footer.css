@@ -27,3 +27,22 @@
     margin: 10% 4% 2%;
     text-align: left;
 }
+
+
+/* TABLET */
+
+@media (min-width:361px) {
+
+   
+    
+}
+
+
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+
+   
+    
+}
