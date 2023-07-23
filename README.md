@@ -12,4 +12,4 @@
 
 [TP5 Formularios](https://github.com/DesarrollosFVP/mercadoLiebre/tree/form)
 
-[TP6 Agregando Estilo](https://github.com/DesarrollosFVP/mercadoLiebre/tree/animation)
+[TP6 Animaciones](https://github.com/DesarrollosFVP/mercadoLiebre/tree/animation)
