@@ -14,54 +14,50 @@
 
 <body>
 
-    <header class="home__header">
-        <div class="home__header__div--logo">
-            <img src="/images/logo-mercado-liebre.svg" alt="Logo">
+    <header class="home-header">
+
+        <div class="home-header-top-bar">
+            <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo ML">
+            
+            <div class="home__header__div--search-bar">
+                <input type="text" placeholder="Buscar productos, marcas">
+                <button class="search-icon"> <i class="fas fa-search"></i> </button>
+            </div>
+
+            
+            <h2 class="home-header-top-bar--cuotas">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
         </div>
 
-        <div class="home__header__div--search-bar">
-            <input type="text" placeholder="Buscar productos, marcas">
-            <button> <i class="fas fa-search"></i> </button>
-        </div>
+        <a class="hamburguer-buttom" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
 
-        <div class="home__header__div--cuotas">
-            <i class="fas fa-hand-holding-usd"></i>
-            Comprá en cuotas y sin tarjeta de crédito
-        </div>
-
-        <nav class="home__header__nav">
-            <ul class="home__header__nav__ul--menu">
-                <li><a href="">Ofertas</a></li>
-                <li><a href="">Tiendas Oficiales</a></li>
-                <li><a href="">Vender</a></li>
-                <li><a href="">Ayuda</a></li>
+        <nav class="home-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
             </ul>
 
-
-            <ul class="home__header__nav__ul--login">
-                <li><a href="">Creá tu cuenta</a>
-                    <i class="far fa-id-card"></i>
-                </li>
-                <li><a href="">Ingresá</a>
-                    <i class="fas fa-sign-in-alt"></i>
-                </li>
-                <li><a href="">Mis compras</a>
-                    <i class="fa fa-shopping-basket"></i>
-                </li>
+            <ul class="right-navBar">
+                <li><a href="#">Creá tu cuenta <i class="fas fa-credit-card"></i> </a></li>
+                <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i> </a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i> </a></li>
             </ul>
 
         </nav>
-
-        <div class="home__header__div--menu-bar">
-            <i class="fas fa-bars"></i>
-        </div>
-
 
         <div class="home__header__div--banner">
             <img class="home__header_img--banner" src="/images/img-home-banner.jpg" alt="Banner">
         </div>
 
     </header>
+
+
 
     <main class="home__main">
 

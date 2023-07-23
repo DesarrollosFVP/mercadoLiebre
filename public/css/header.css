@@ -1,98 +1,201 @@
-.home__header {
+/* header mobile */
+
+.home-header {
     background: var(--colorAmarillo);
-    padding: 20px 20px 0px;            
-}
-
-.home__header__div--logo {
-    width: 50%;
-    margin: 0 0 8px;
-}
-
-.home__header__div--search-bar {
-    width: 50%;
-    margin: 0;
-}
-
-
-.home__header__div--search-bar button{
-    display: block;
-    margin-top: 0.5%;
-    margin-left: 0px;
-    margin-bottom: 4%;
+    padding: 20px;
     
 }
 
+.home-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-.home__header__div--cuotas {
-    display: block;
+.logo {
+    width: 100px;
+    
+}
+
+.home__header__div--search-bar input{
+    width: 100%;
+    position: relative;
+    height: 25px;
+    padding: 4%;
+}
+
+
+.home__header__div--search-bar button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: -5%;
+}
+
+
+.home-header-top-bar--cuotas {
+    font-weight: 400;
     text-align: center;
-}
-
-
-.home__header__nav {
+    width: 100%;
     margin-top: 5%;
-    visibility: hidden;
 }
 
-.home__header__nav ul{
+.home-navbar {
+    display: none;
+}
+
+.home-navbar ul {
     list-style: none;
-    margin-left: -20px;
+    margin: 0;
+    padding: 0;
 }
 
-.home__header__nav__ul--menu {
-    margin-bottom: 5%;
+.home-navbar a {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 18px;
+
 }
 
-
-.home__header__div--menu-bar {
-    display: block;
+.hamburguer-buttom {
     background: var(--colorCeleste);
-    color: var(--colorGrisClaro);
+    color: white;
+    display: block;
     max-width: 50px;
+    padding: 10px 0;
     border-radius: 8px;
     text-align: center;
-    font-style: 20px;
-    margin-top: -110px;
-    margin-left: 42%;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 2%;
 }
 
-.home__header__div--menu-bar i {
-    font-size: 30px;
-    padding: 10px;
+.home__header__div--banner{
+    display: none;
 }
 
-
-.home__header_img--banner {
-    display: block;
-    width: 100%;
-    margin-top: 5%;    
-}
 
 /* TABLET */
 
-@media (min-width:361px) {
-   
-.home__header__nav {
-    margin-top: 5%;
-    visibility:visible;
-    padding-left: 20px;
-}
+@media (min-width: 361px) {
 
-.home__header__div--menu-bar {
-    margin: -30px;
-    visibility: hidden;
-}
+  
+    .logo {
+        width: 30%;      
+    }
 
+    .home__header__div--search-bar{
+        width: 30%;
+        margin-top: 1%;
+    }
+
+    .home__header__div--search-bar button {
+        margin-top: 1%;
+        margin-left: -3%;
+    }
     
+    .home-header-top-bar--cuotas {
+        width: 30%;
+        max-width: 200px;
+        text-align: right;
+        font-size: 14px;
+        margin-top: 1%;
+    }
+
+
+    .hamburguer-buttom {
+        display: none;
+    }
+
+    .home-navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .left-navbar{
+        display: flex;
+        width: 100%;
+        gap: 2%;
+    }
+
+    .right-navBar{
+        display: flex;
+        width: 100%;
+        gap: 2%;
+    }
+
+    .home-navbar li {
+        font-size: 8px;
+    }
+
+
+
+
 }
-
-
 
 /* DESKTOP */
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
 
-   
-    
+    .home-header{
+     padding-bottom: 0px;   
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+    .home-header-top-bar, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .home-header-top-bar {
+        align-items: center;
+    }
+
+    .home-header-top-bar--cuotas {
+        margin: 0;
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+
+    .home-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        gap: 10%;
+    }
+
+    .home-navbar ul {
+        display: flex;
+        width: 40%;
+        
+    }
+
+    .home-navbar li {
+        margin: 0 10px;
+    }
+
+    .home-navbar a {
+        font-size: 19px;
+    }
+
+
+    .home__header__div--banner {
+        display: inline-block;
+        margin-left: -20px;        
+    }
+
+    .home__header__div--banner img{
+        width: 100%;
+        height: auto;
+        
+    }
+
 }
-

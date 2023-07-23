@@ -94,7 +94,6 @@
     .home__main__section--ofertas__articles{
         display: flex;
         flex-wrap: wrap;
-        justify-content:space-around;
     }
 
     .home__main section article {
