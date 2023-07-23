@@ -1,0 +1,15 @@
+.register{
+    background-color: #37353551;
+}
+
+.register .container {
+margin-bottom: 10%;}
+
+.btn {
+    background-color: var(--colorCeleste);
+    width: 50%;
+    
+}
+
+
+
