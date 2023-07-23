@@ -1,0 +1,12 @@
+.login{
+    background-color: #37353551;
+}
+
+.login .container {
+    margin: 10% 0;
+    
+}
+
+.btn {
+    background-color: var(--colorCeleste);
+}
