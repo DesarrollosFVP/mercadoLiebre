@@ -29,6 +29,11 @@
 }
 
 
+.home__footer section div i:hover {
+    color: rgb(99, 99, 13);
+}
+
+
 /* TABLET */
 
 @media (min-width:361px) {
