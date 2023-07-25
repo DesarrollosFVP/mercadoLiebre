@@ -43,6 +43,27 @@
 
 @media (min-width:769px) {
 
+    .home__footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home__footer__section--pagos {
+        width: 30%;
+    }
+
+    .home__footer__section--envio-gratis{
+        width: 30%;
+    }
+
+    .home__footer__section--compra-protegida {
+        width: 30%;
+    }
+
+    .home__footer__section--copyright {
+        width: 100%;
+        font-size: 0.9rem;
+    }
    
     
 }
