@@ -1,9 +1,12 @@
 /* header mobile */
 
 .home-header {
+    background-color: var(--colorAmarillo);
+}
+
+.top-bar-contenedor {
     background: var(--colorAmarillo);
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 .home-header-top-bar {
@@ -74,6 +77,14 @@
 
 .home__header__div--banner{
     display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home__header_img--banner {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -188,8 +199,8 @@
 
 
     .home__header__div--banner {
-        display: inline-block;
-        margin-left: -20px;        
+        display: flex;
+        /* margin-left: -20px; */
     }
 
     .home__header__div--banner img{
